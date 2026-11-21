@@ -26,6 +26,11 @@
   .foto{position:relative;aspect-ratio:4/5;background:var(--navy)}
   .foto img{width:100%;height:100%;object-fit:cover;display:block}
   .foto::after{content:"";position:absolute;inset:0;background:var(--blue);opacity:.10}
+  .scrim{position:absolute;left:0;right:0;bottom:0;z-index:2;padding:90px 22px 18px;background:linear-gradient(to bottom,rgba(7,8,46,0),rgba(7,8,46,.6) 45%,rgba(7,8,46,.96))}
+  .hook{font-family:"Cormorant Garamond",serif;font-style:italic;font-weight:700;font-size:26px;line-height:1.08;color:#fff;text-wrap:balance}
+  .fte{font-size:13px;line-height:1.3;color:rgba(255,255,255,.72);margin-top:8px}
+  .sig{font-size:13px;color:rgba(255,255,255,.85);margin-top:8px}
+  .sig b{font-family:"Cormorant Garamond",serif;font-size:16px;letter-spacing:.03em;text-transform:uppercase;color:#fff}
   .num{position:absolute;left:14px;top:12px;z-index:2;font-size:13px;font-weight:700;letter-spacing:.2em;color:#fff;text-shadow:0 1px 6px rgba(7,8,46,.8)}
   .cuerpo{padding:20px 22px 24px;display:flex;flex-direction:column;gap:10px;flex:1}
   h2{font-family:"Cormorant Garamond",serif;font-weight:700;font-size:30px;line-height:1.1;text-transform:uppercase;letter-spacing:.02em}
@@ -53,121 +58,109 @@
 </header>
 <main>
   <article class="card" id="p1">
-    <div class="foto"><img src="img/enheduanna.jpg" alt="Busto de Enheduanna" loading="lazy" style="object-position:50% 18%"><span class="num">01</span></div>
+    <div class="foto"><img src="img/enheduanna.jpg" alt="Busto de Enheduanna" loading="lazy" style="object-position:50% 18%">
+      <div class="scrim"><p class="hook">“Señora de todos los poderes divinos”</p><p class="fte">Exaltación de Inanna, verso inicial · traducción libre</p><p class="sig"><b>Enheduanna</b> · c. 2285–2250 a. C.</p></div></div>
     <div class="cuerpo">
-      <h2>Enheduanna</h2>
-      <p class="rol">c. 2285–2250 a. C.</p>
-      <blockquote>“Señora de todos los poderes divinos”<cite>Exaltación de Inanna, verso inicial · traducción libre</cite></blockquote>
+      <h2>Enero</h2>
       <p class="texto">Sacerdotisa de Ur e hija del rey Sargón, escribió himnos que firmó con su nombre, unos 1.500 años antes de Homero.</p>
       <p class="hoy">Hoy: firmar una obra es un derecho.</p>
     </div>
   </article>
   <article class="card" id="p2">
-    <div class="foto"><img src="img/homero.jpg" alt="Busto de Homero" loading="lazy" style="object-position:45% 8%"><span class="num">02</span></div>
+    <div class="foto"><img src="img/homero.jpg" alt="Busto de Homero" loading="lazy" style="object-position:45% 8%">
+      <div class="scrim"><p class="hook">“Háblame, Musa, de aquel varón de multiforme ingenio”</p><p class="fte">Odisea, canto I, 1</p><p class="sig"><b>Homero</b> · siglo VIII a. C.</p></div></div>
     <div class="cuerpo">
-      <h2>Homero</h2>
-      <p class="rol">siglo VIII a. C.</p>
-      <blockquote>“Háblame, Musa, de aquel varón de multiforme ingenio”<cite>Odisea, canto I, 1</cite></blockquote>
+      <h2>Febrero</h2>
       <p class="texto">Se le atribuyen la Ilíada y la Odisea, los poemas más antiguos de la literatura europea. Aún se leen en las escuelas.</p>
       <p class="hoy">Hoy: novelas, series y películas épicas.</p>
     </div>
   </article>
   <article class="card" id="p3">
-    <div class="foto"><img src="img/tales-marmol.jpg" alt="Busto de Tales de Mileto" loading="lazy" style="object-position:52% 67%"><span class="num">03</span></div>
+    <div class="foto"><img src="img/tales-marmol.jpg" alt="Busto de Tales de Mileto" loading="lazy" style="object-position:52% 67%">
+      <div class="scrim"><p class="hook">“Lo más difícil es conocerse a sí mismo”</p><p class="fte">Se le atribuye · Diógenes Laercio, I, 36</p><p class="sig"><b>Tales de Mileto</b> · c. 624–546 a. C.</p></div></div>
     <div class="cuerpo">
-      <h2>Tales de Mileto</h2>
-      <p class="rol">c. 624–546 a. C.</p>
-      <blockquote>“Lo más difícil es conocerse a sí mismo”<cite>Se le atribuye · Diógenes Laercio, I, 36</cite></blockquote>
+      <h2>Marzo</h2>
       <p class="texto">Dejó de explicar el mundo con mitos y buscó causas naturales. Se le atribuye un teorema sobre triángulos y círculos.</p>
       <p class="hoy">Hoy: geometría y método científico.</p>
     </div>
   </article>
   <article class="card" id="p4">
-    <div class="foto"><img src="img/safo-lira.jpg" alt="Busto de Safo de Lesbos" loading="lazy" style="object-position:40% 77%"><span class="num">04</span></div>
+    <div class="foto"><img src="img/safo-lira.jpg" alt="Busto de Safo de Lesbos" loading="lazy" style="object-position:40% 77%">
+      <div class="scrim"><p class="hook">“Alguien se acordará de nosotros, lo digo, aun en otro tiempo”</p><p class="fte">Fragmento 147</p><p class="sig"><b>Safo de Lesbos</b> · c. 630–570 a. C.</p></div></div>
     <div class="cuerpo">
-      <h2>Safo de Lesbos</h2>
-      <p class="rol">c. 630–570 a. C.</p>
-      <blockquote>“Alguien se acordará de nosotros, lo digo, aun en otro tiempo”<cite>Fragmento 147</cite></blockquote>
+      <h2>Abril</h2>
       <p class="texto">Poeta de la isla de Lesbos, la única mujer incluida en el canon lírico de la Antigüedad. Escribió sobre el amor y el deseo.</p>
       <p class="hoy">Hoy: la poesía que habla de lo íntimo.</p>
     </div>
   </article>
   <article class="card" id="p5">
-    <div class="foto"><img src="img/pitagoras-marmol.jpg" alt="Busto de Pitágoras de Samos" loading="lazy" style="object-position:47% 17%"><span class="num">05</span></div>
+    <div class="foto"><img src="img/pitagoras-marmol.jpg" alt="Busto de Pitágoras de Samos" loading="lazy" style="object-position:47% 17%">
+      <div class="scrim"><p class="hook">“Educad a los niños y no será necesario castigar a los hombres”</p><p class="fte">Frase apócrifa: no consta en fuentes antiguas</p><p class="sig"><b>Pitágoras de Samos</b> · c. 570–495 a. C.</p></div></div>
     <div class="cuerpo">
-      <h2>Pitágoras de Samos</h2>
-      <p class="rol">c. 570–495 a. C.</p>
-      <blockquote>“Educad a los niños y no será necesario castigar a los hombres”<cite>Frase apócrifa: no consta en fuentes antiguas</cite></blockquote>
+      <h2>Mayo</h2>
       <p class="texto">Reunió matemáticas, música y astronomía en una sola escuela. Se le atribuye el teorema con el que aún medimos distancias.</p>
       <p class="hoy">Hoy: planos, mapas y diseño digital.</p>
     </div>
   </article>
   <article class="card" id="p6">
-    <div class="foto"><img src="img/socrates.jpg" alt="Busto de Sócrates" loading="lazy" style="object-position:42% 78%"><span class="num">06</span></div>
+    <div class="foto"><img src="img/socrates.jpg" alt="Busto de Sócrates" loading="lazy" style="object-position:42% 78%">
+      <div class="scrim"><p class="hook">“Una vida sin examen no merece ser vivida”</p><p class="fte">Platón, Apología, 38a</p><p class="sig"><b>Sócrates</b> · 470–399 a. C.</p></div></div>
     <div class="cuerpo">
-      <h2>Sócrates</h2>
-      <p class="rol">470–399 a. C.</p>
-      <blockquote>“Una vida sin examen no merece ser vivida”<cite>Platón, Apología, 38a</cite></blockquote>
+      <h2>Junio</h2>
       <p class="texto">Recorría Atenas haciendo preguntas hasta que las ideas se aclaraban. De ese método viene el diálogo como forma de aprender.</p>
       <p class="hoy">Hoy: aprender es saber preguntar.</p>
     </div>
   </article>
   <article class="card" id="p7">
-    <div class="foto"><img src="img/aspasia.jpg" alt="Busto de Aspasia de Mileto" loading="lazy" style="object-position:50% 62%"><span class="num">07</span></div>
+    <div class="foto"><img src="img/aspasia.jpg" alt="Busto de Aspasia de Mileto" loading="lazy" style="object-position:50% 62%">
+      <div class="scrim"><p class="hook">Enseñó a hablar a quienes gobernaban.</p><p class="fte">No se conserva nada escrito por ella; la conocemos por Platón y Plutarco.</p><p class="sig"><b>Aspasia de Mileto</b> · c. 470–400 a. C.</p></div></div>
     <div class="cuerpo">
-      <h2>Aspasia de Mileto</h2>
-      <p class="rol">c. 470–400 a. C.</p>
-      <blockquote>Enseñó a hablar a quienes gobernaban.<cite>No se conserva nada escrito por ella; la conocemos por Platón y Plutarco.</cite></blockquote>
+      <h2>Julio</h2>
       <p class="texto">Filósofa y maestra de retórica en la Atenas de Pericles, su pareja. Su salón reunía a pensadores como Sócrates.</p>
       <p class="hoy">Hoy: hablar en público se aprende.</p>
     </div>
   </article>
   <article class="card" id="p8">
-    <div class="foto"><img src="img/platon.jpg" alt="Busto de Platón" loading="lazy" style="object-position:45% 11%"><span class="num">08</span></div>
+    <div class="foto"><img src="img/platon.jpg" alt="Busto de Platón" loading="lazy" style="object-position:45% 11%">
+      <div class="scrim"><p class="hook">“El asombro es el origen de la filosofía”</p><p class="fte">Platón, Teeteto, 155d</p><p class="sig"><b>Platón</b> · c. 428–348 a. C.</p></div></div>
     <div class="cuerpo">
-      <h2>Platón</h2>
-      <p class="rol">c. 428–348 a. C.</p>
-      <blockquote>“El asombro es el origen de la filosofía”<cite>Platón, Teeteto, 155d</cite></blockquote>
+      <h2>Agosto</h2>
       <p class="texto">Fundó la Academia de Atenas, la primera gran escuela de Occidente, y escribió diálogos donde Sócrates pregunta. Aristóteles fue su alumno.</p>
       <p class="hoy">Hoy: la curiosidad que abre las preguntas.</p>
     </div>
   </article>
   <article class="card" id="p9">
-    <div class="foto"><img src="img/diogenes.jpg" alt="Busto de Diógenes de Sinope" loading="lazy" style="object-position:45% 20%"><span class="num">09</span></div>
+    <div class="foto"><img src="img/diogenes.jpg" alt="Busto de Diógenes de Sinope" loading="lazy" style="object-position:45% 20%">
+      <div class="scrim"><p class="hook">“Apártate, que me tapas el sol”</p><p class="fte">Se le atribuye · Plutarco, Alejandro</p><p class="sig"><b>Diógenes de Sinope</b> · c. 412–323 a. C.</p></div></div>
     <div class="cuerpo">
-      <h2>Diógenes de Sinope</h2>
-      <p class="rol">c. 412–323 a. C.</p>
-      <blockquote>“Apártate, que me tapas el sol”<cite>Se le atribuye · Plutarco, Alejandro</cite></blockquote>
+      <h2>Septiembre</h2>
       <p class="texto">Filósofo cínico: vivía con casi nada y desafiaba las convenciones. Cuentan que paseaba con una lámpara encendida de día, buscando a un hombre honesto.</p>
       <p class="hoy">Hoy: criterio propio ante la moda.</p>
     </div>
   </article>
   <article class="card" id="p10">
-    <div class="foto"><img src="img/aristoteles.jpg" alt="Busto de Aristóteles" loading="lazy" style="object-position:47% 62%"><span class="num">10</span></div>
+    <div class="foto"><img src="img/aristoteles.jpg" alt="Busto de Aristóteles" loading="lazy" style="object-position:47% 62%">
+      <div class="scrim"><p class="hook">“Todos los hombres desean por naturaleza saber”</p><p class="fte">Metafísica, libro I, 980a</p><p class="sig"><b>Aristóteles</b> · 384–322 a. C.</p></div></div>
     <div class="cuerpo">
-      <h2>Aristóteles</h2>
-      <p class="rol">384–322 a. C.</p>
-      <blockquote>“Todos los hombres desean por naturaleza saber”<cite>Metafísica, libro I, 980a</cite></blockquote>
+      <h2>Octubre</h2>
       <p class="texto">Alumno de Platón y maestro de Alejandro Magno, sentó las bases de la lógica y estudió desde la biología hasta la política.</p>
       <p class="hoy">Hoy: la curiosidad que mueve a aprender.</p>
     </div>
   </article>
   <article class="card" id="p11">
-    <div class="foto"><img src="img/seneca.jpg" alt="Busto de Séneca" loading="lazy" style="object-position:45% 36%"><span class="num">11</span></div>
+    <div class="foto"><img src="img/seneca.jpg" alt="Busto de Séneca" loading="lazy" style="object-position:45% 36%">
+      <div class="scrim"><p class="hook">“No es que tengamos poco tiempo, sino que perdemos mucho”</p><p class="fte">Sobre la brevedad de la vida, 1</p><p class="sig"><b>Séneca</b> · c. 4 a. C.–65 d. C.</p></div></div>
     <div class="cuerpo">
-      <h2>Séneca</h2>
-      <p class="rol">c. 4 a. C.–65 d. C.</p>
-      <blockquote>“No es que tengamos poco tiempo, sino que perdemos mucho”<cite>Sobre la brevedad de la vida, 1</cite></blockquote>
+      <h2>Noviembre</h2>
       <p class="texto">Filósofo estoico y escritor romano. En sus cartas y tratados enseñó a manejar las emociones y a aprovechar el tiempo.</p>
       <p class="hoy">Hoy: organizar el tiempo de estudio.</p>
     </div>
   </article>
   <article class="card" id="p12">
-    <div class="foto"><img src="img/hipatia.jpg" alt="Busto de Hipatia de Alejandría" loading="lazy" style="object-position:45% 26%"><span class="num">12</span></div>
+    <div class="foto"><img src="img/hipatia.jpg" alt="Busto de Hipatia de Alejandría" loading="lazy" style="object-position:45% 26%">
+      <div class="scrim"><p class="hook">“Defiende tu derecho a pensar, pues pensar mal es mejor que no pensar”</p><p class="fte">Frase apócrifa: no consta en fuentes antiguas</p><p class="sig"><b>Hipatia de Alejandría</b> · c. 360–415 d. C.</p></div></div>
     <div class="cuerpo">
-      <h2>Hipatia de Alejandría</h2>
-      <p class="rol">c. 360–415 d. C.</p>
-      <blockquote>“Defiende tu derecho a pensar, pues pensar mal es mejor que no pensar”<cite>Frase apócrifa: no consta en fuentes antiguas</cite></blockquote>
+      <h2>Diciembre</h2>
       <p class="texto">Filósofa y matemática de Alejandría. Dirigió una escuela y comentó obras de geometría y astronomía.</p>
       <p class="hoy">Hoy: la ciencia también la hacen mujeres.</p>
     </div>
